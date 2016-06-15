@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Webpack Styles</title>
+
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,900' rel='stylesheet' type='text/css'>
+
+  <style>
+    .samples div {
+      height: 50px;
+      width: 100%;
+      padding-top: 15px;
+      padding-left: 15px;
+      font-weight: 900;
+      margin-bottom: 5px;
+    }
+  </style>
+
+  <!-- uncomment this import if you are compiling your styles with webpack.prod.config.js -->
+  <!-- <link rel="stylesheet" type="text/css" href="/assets/app.css"> -->
+
+</head>
+<body>
+
+  <h1>Webpack Styles</h1>
+
+  <div class="samples">
+    <div class="css">
+      CSS Styles
+    </div>
+
+    <div class="less">
+      LESS Styles
+    </div>
+
+    <div class="sass">
+      SASS Styles
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">
+              <span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+              Bootstrap Panel
+            </h3>
+          </div>
+          <div class="panel-body">
+            <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+            Panel content
+          </div>
+          <div class="panel-footer">
+            <span class="glyphicon glyphicon-hand-right" aria-hidden="true"></span>
+            Panel footer
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/assets/bundle.js"></script>
+
+</body>
+</html>
